@@ -1,0 +1,108 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f5f5f5;
+}
+h1 {
+	width: 1020px;
+	margin: auto;
+	margin-top: 40px;
+}
+.m-content {
+	width: 1020px;
+	margin: auto;
+}
+.hide {
+	display: none;
+}
+button {
+	background-color: #30BC48;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	font-size: 0.8em;
+	margin: 0 0 1em 0;
+	padding: 0.5em 0.8em 0.6em 0.8em;
+	text-transform: uppercase;
+}
+button:hover {
+	cursor: pointer;
+}
+.start {
+	width: 1020px;
+	float: left;
+	border-bottom: 5px #000 solid;
+	margin-top: 40px;
+}
+.start input {
+	width: 200px;
+	padding: 5px;
+	margin-top: 20px;
+}
+video {
+	width: 360px;
+	height: 270px;
+}
+.local {
+	width: 360px;
+	height: 270px;
+	float: left;
+	margin: 20px 20px 20px 0px;
+	background-color: #333;
+}
+.remote {
+	width: 360px;
+	height: 270px;
+	float: left;
+	margin: 20px 20px 20px 0px;
+	background-color: #777;
+}
+.users-list {
+	float: left;
+	width: 240px;
+	min-height: 270px;
+	padding-left: 15px;
+	border-left: 5px #000 solid;
+	margin-top: 20px;
+}
+.user {
+	width: 100%;
+	border-bottom: 1px #BCBCBC dashed;
+	float: left;
+	margin-bottom: 10px;
+}
+.b-connect {
+	float: right;
+	font-size: 0.7em;
+}
+.b-disconnect {
+	background-color: #d84a38;
+	margin-top: 21px;
+}
+.no-users {
+	border-bottom: none;
+	font-style: italic;
+}
+.status {
+	float: right;
+	margin-top: 20px;
+}
+#status {
+	color: #d84a38;
+}
+.logs {
+	border-top: 5px #000 solid;
+	padding-top: 10px;
+	float: left;
+	width: 1020px;
+}
+.log {
+	font-style: italic;
+	float: left;
+	border-bottom: 1px #BCBCBC dashed;
+	width: 1010px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+.error {
+	color: #d84a38;
+}

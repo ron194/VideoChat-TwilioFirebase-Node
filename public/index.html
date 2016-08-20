@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+   	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Quick Start Your WebRTC Project with Twilio</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="main.css">
+   	</head>
+	<body>
+      	<div class="m-content">
+        	<h1>Quick Start Your WebRTC Project with Twilio</h1>
+			<div class="start">
+				<input type="text" id="id" name="id" value="" placeholder="Enter your name to join the chat" />
+				<button id="start">Join Chatroom</button>
+				<button id="disconnect" class="b-disconnect hide">Disconnect from Chat</button>
+				<div class="status">
+					<strong>MY STATUS:</strong> <span id="status">DISCONNECTED</span>
+				</div>
+			</div>
+			<div class="local">
+				<div id="lstream"></div>
+			</div>
+			<div class="remote">
+				<div id="rstream"></div>
+			</div>
+			<div class="users-list"></div>
+			<div class="logs"></div>		
+      	</div>
+		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="https://media.twiliocdn.com/sdk/js/common/v0.1/twilio-common.min.js"></script>
+		<script src="https://media.twiliocdn.com/sdk/js/conversations/v0.13/twilio-conversations.min.js"></script>
+		<script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>	
+		<script src="app.js"></script>
+   	</body>
+</html>
